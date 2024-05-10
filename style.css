@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: aquamarine;
+}
+.container {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.container img {
+  width: 200px;
+  height: 100px;
+}
+.container h1 {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .Time {
+  border-radius: 5px;
+  border: 1px solid rgb(136, 130, 130);
+  /* background-color: blue; */
+  width: 25%;
+  padding: 0px 10px;
+}
+.container select {
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 100%;
+  background-color: bisque;
+  font-size: 15px;
+}
+.container .Alarm-Button {
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-image: linear-gradient(to right, #99e798, aquamarine);
+  background-color: aquamarine;
+ 
+.set-alarm {
+  justify-content: space-between;
+  width: auto;
+  background-color: #99e798;
+  border-radius: 5px;
+  margin: 8px;
+}
+.delete-alarm {
+  margin-left: 10px;
+  background-color: rgb(243, 202, 187);
+  border-radius: 5px;
+}
